@@ -1,0 +1,280 @@
+*
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+.navbar
+{ 
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+
+}
+.nav-logo
+{
+    height: 50px;
+    width: 110px;
+}
+.logo
+{
+    background-image: url("logoo.png");
+    background-size: cover;
+    height: 50px;
+    width: 110px;
+
+}
+.border
+{
+    border: 1.5px solid transparent;
+}
+.border:hover
+{
+    border: 1.5px solid white;
+}
+
+
+.add-first
+{
+color: #cccccc;
+font-size: 12px;
+margin-left:15px;
+}
+.add-second
+{
+    font-size: 14px;
+    margin-left: 2px;
+}
+.add-icon
+{
+    display: flex;
+    align-items: center;
+}
+.nav-search:hover{
+    border:2.5px solid orange ;
+}
+.nav-search
+{background-color: pink;
+    display: flex;
+    height: 40px;
+    width: 650px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.search-select
+{
+    width: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+    
+}
+
+.search-input
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+
+    width: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+background-color: rgba(240, 191, 76);
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+color: #0f1111;
+}
+span{
+    font-size: 12px;
+}
+
+.navsec
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+.cart
+{
+    font: 14px;
+}
+
+.cartlogo i{
+    font-size: 30px;
+}
+cartlogo
+{
+    font-size: 14px;
+}
+.subnav
+{
+    color: white;
+    height: 36px;
+ background-color: #222f3d;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-evenly;
+font-size: 14px;
+
+
+}
+
+.panleop p
+{ 
+    display: inline;
+    margin-left: 15px;
+
+}
+.panleop{
+    color: white;
+    width: 70%;
+    
+}
+
+.hero-sectio
+{
+    background-image: url(heroimg_.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromsg
+{
+    background-color: #f5f6f6;
+    width: 80%;
+    color: #0f1111;
+    font-size: 14px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shop-section
+{   
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+   margin-bottom: 15px;
+}
+.box
+{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+background-color: white;
+padding: 20px 0px 15px ;
+margin-top: 5px;
+     
+}
+.boximg
+{
+    background-image: url(Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}       
+.box-content
+
+{
+    margin: 0px 13px 0px 13px;
+}
+.box-content p
+{
+    color: #007185;
+
+}
+footer{
+    margin-top: 15px;
+}
+.footpalne1
+{
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footepalne2
+{
+    background-color:#37475a ;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    color: white;
+    font-size: 0.85rem;
+    height: 300px;
+    justify-content: space-evenly;
+
+
+}
+ul a 
+{   font-size: 14px;
+    display: block;
+    color: #dddddd;
+    margin-top:15px ;
+}
+ul p
+{   margin-top: 15px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.footepalne3
+{
+    height: 200px;
+    background-color:#37475a ;
+   border-top: 1.5px solid white;  
+   display: flex;
+   justify-content: center;
+   align-items: center;     
+
+}
+.logo1
+{
+    background-image: url("logoo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.footpalne4{
+    background-color: #131a22;
+    height: 100px;
+    color: #dddddd;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    
+}
+.pages{
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top:15px ;
+}
+.copyright
+{
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 5px;
+}
